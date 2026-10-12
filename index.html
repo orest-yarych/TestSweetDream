@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/TestSweetDream/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Dream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/TestSweetDream/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/TestSweetDream/assets/vendor-eIM5jb1Y.js">
+    <link rel="stylesheet" crossorigin href="/TestSweetDream/assets/vendor-TlYmZ_BM.css">
+    <link rel="stylesheet" crossorigin href="/TestSweetDream/assets/index-BPNIeGdp.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a class="logo" href="./index.html" aria-label="SweetDream">
+      <svg class="logo-icon" width="112" height="48">
+        <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#logo"></use>
+      </svg>
+    </a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#dessert-list">Солодощі</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">Про нас</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#feedback">Відгуки</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">Часті питання</a>
+        </li>
+      </ul>
+
+      <a class="button" href="#dessert-list">До покупок</a>
+    </nav>
+
+    <button
+      class="burger-button"
+      type="button"
+      aria-label="Відкрити меню"
+      aria-expanded="false"
+    >
+      <svg class="burger-icon" width="19" height="13">
+        <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <a class="logo" href="./index.html" aria-label="SweetDream">
+        <svg class="logo-icon" width="112" height="48">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#logo"></use>
+        </svg>
+      </a>
+
+      <button class="mobile-menu-close" type="button" aria-label="Закрити меню">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="mobile-nav">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#dessert-list">Солодощі</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#about-us">Про нас</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#feedback">Відгуки</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#faq">Часті питання</a>
+        </li>
+
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-button" href="#dessert-list">До покупок</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero" id="hero">
+  <div class="container hero-container">
+    <div class="hero-header">
+      <h1 class="hero-title">Ласкаво<br class="br-mobile"> просимо до Солодкої Майстерні</h1>
+      <p class="hero-paragraph">
+        Відкрийте для себе наші неперевершені десерти, приготовані з любов'ю та
+        увагою до деталей. Кожен шматочок — це справжнє свято смаку!
+      </p>
+      <a class="hero-button" href="#feedback">Що про нас думають</a>
+    </div>
+  </div>
+</section>
+
+      <section id="popular-products" class="section">
+  <div class="container">
+    <h2 class="section-title">Наші бестселлери</h2>
+    <div class="popular-products-swiper swiper">
+      <ul class="popular-products-wrapper swiper-wrapper"></ul>
+      <div class="popular-products-swiper-nav">
+        <div class="popular-products-pugination"></div>
+        <div class="popular-products-btn-container">
+          <button class="popular-products-btn popular-products-btn-prev">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-back"></use>
+            </svg>
+          </button>
+          <button class="popular-products-btn popular-products-btn-next">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-forward"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="dessert-list" class="section">
+  <div class="container">
+    <div class="section-wrapper">
+      <div class="section-div">
+        <h2 class="section-title">Солодощі</h2>
+        <p class="section-description">
+          Спробуйте наші смачні десерти, які вас здивують!
+        </p>
+      </div>
+
+      <div class="category-filter">
+        <select id="category-select" class="category-select">
+          <!-- Add category options from categories data -->
+        </select>
+
+        <ul class="category-buttons" role="group">
+          <!-- Render category buttons here -->
+        </ul>
+      </div>
+    </div>
+
+    <ul class="dessert-list">
+      <!-- Dessert items will go here -->
+    </ul>
+
+    <button class="btn load-more-btn is-hidden">Завантажити ще</button>
+  </div>
+</section>
+
+      <section class="about-us section" id="about-us">
+  <div class="container">
+    <div class="about-us-title">
+      <h2 class="about-us-title-heading">Про нас</h2>
+
+      <p class="about-us-text">
+        У нашій 'Солодкій Майстерні' ми створюємо неповторні солодкі шедеври, що
+        приносять радість та задоволення. Наша місія — пропонувати високоякісні
+        десерти, які поєднують у собі вишуканий смак, свіжі інгредієнти та
+        естетичний вигляд.
+      </p>
+    </div>
+
+    <div class="about-us-gallery">
+      <div class="about-us-swiper swiper">
+        <div class="about-us-swiper-wrapper swiper-wrapper">
+          <div class="about-us-slide swiper-slide">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/TestSweetDream/assets/about-us-1-XadVXktJ.webp 1x, /TestSweetDream/assets/about-us-1@2x-D1JTK_sU.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/TestSweetDream/assets/about-us-tablet-1-v4d5oxkq.webp 1x, /TestSweetDream/assets/about-us-tablet-1@2x-4nk9_42e.webp 2x"
+              />
+              <source
+                srcset="/TestSweetDream/assets/about-us-mobile-1-DPtlPWxW.webp 1x, /TestSweetDream/assets/about-us-mobile-1@2x-CtNLimCm.webp 2x"
+              />
+              <img
+                src="/TestSweetDream/assets/about-us-mobile-1-DPtlPWxW.webp"
+                alt="Десерт у Солодкій Майстерні"
+              />
+            </picture>
+          </div>
+
+          <div class="about-us-slide swiper-slide">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/TestSweetDream/assets/about-us-2-CYKlkAOK.webp 1x, /TestSweetDream/assets/about-us-2@2x-DoTgDzdA.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/TestSweetDream/assets/about-us-tablet-2-Dskyud72.webp 1x, /TestSweetDream/assets/about-us-tablet-2@2x-C_qt7oXY.webp 2x"
+              />
+              <source
+                srcset="/TestSweetDream/assets/about-us-mobile-2-OnM1ndtC.webp 1x, /TestSweetDream/assets/about-us-mobile-2@2x-DRrFgYMW.webp 2x"
+              />
+              <img
+                src="/TestSweetDream/assets/about-us-mobile-2-OnM1ndtC.webp"
+                alt="Десерт у Солодкій Майстерні"
+              />
+            </picture>
+          </div>
+
+          <div class="about-us-slide swiper-slide">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/TestSweetDream/assets/about-us-3-CxF0604K.webp 1x, /TestSweetDream/assets/about-us-3@2x-BS6U4a3N.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/TestSweetDream/assets/about-us-tablet-3-CqyxWnnb.webp 1x, /TestSweetDream/assets/about-us-tablet-3@2x-C514Xpts.webp 2x"
+              />
+              <source
+                srcset="/TestSweetDream/assets/about-us-mobile-3-CWIcxGLy.webp 1x, /TestSweetDream/assets/about-us-mobile-3@2x-GcuM7QuP.webp 2x"
+              />
+              <img
+                src="/TestSweetDream/assets/about-us-mobile-3-CWIcxGLy.webp"
+                alt="Десерт у Солодкій Майстерні"
+              />
+            </picture>
+          </div>
+
+          <div class="about-us-slide swiper-slide">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/TestSweetDream/assets/about-us-4-pBMzFJuc.webp 1x, /TestSweetDream/assets/about-us-4@2x-CkW3mnE7.webp 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/TestSweetDream/assets/about-us-tablet-4-lf5wTvqh.webp 1x, /TestSweetDream/assets/about-us-tablet-4@2x-Ck_sZn9E.webp 2x"
+              />
+              <source
+                srcset="/TestSweetDream/assets/about-us-mobile-4-CpDOBBzV.webp 1x, /TestSweetDream/assets/about-us-mobile-4@2x-CWp4_g-C.webp 2x"
+              />
+              <img
+                src="/TestSweetDream/assets/about-us-mobile-4-CpDOBBzV.webp"
+                alt="Десерт у Солодкій Майстерні"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="about-us-button about-us-button-prev"
+        type="button"
+        aria-label="Попередній слайд"
+      >
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-back"></use>
+        </svg>
+      </button>
+
+      <button
+        class="about-us-button about-us-button-next"
+        type="button"
+        aria-label="Наступний слайд"
+      >
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-forward"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="about-us-pagination"></div>
+  </div>
+</section>
+
+      <section class="feedback" id="feedback">
+  <div class="container">
+    <div class="feedback-header">
+      <h2 class="feedback-title">Відгуки клієнтів</h2>
+      <p class="feedback-subtitle">
+        Найкращі десерти, які я коли-небудь куштував!
+      </p>
+    </div>
+
+    <div class="feedback-slider">
+      <div class="swiper feedback-swiper">
+        <ul class="swiper-wrapper feedback-list"></ul>
+      </div>
+
+      <button
+        class="feedback-button feedback-button-prev"
+        type="button"
+        aria-label="Попередні відгуки"
+      >
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-back"></use>
+        </svg>
+      </button>
+
+      <button
+        class="feedback-button feedback-button-next"
+        type="button"
+        aria-label="Наступні відгуки"
+      >
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-forward"></use>
+        </svg>
+      </button>
+
+      <div class="feedback-pagination"></div>
+      
+    </div>
+  </div>
+</section>
+      <section class="section faq" id="faq">
+  <div class="container">
+    <h2 class="section-title faq-title">Часті питання</h2>
+
+    <ul class="faq-list">
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              1. Які способи оплати ви приймаєте?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Ми приймаємо оплату онлайн банківськими картками Visa та Mastercard,
+            через платіжні системи Apple Pay та Google Pay, а також готівкою
+            кур'єру при отриманні замовлення.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">2. Чи є у вас доставка?</span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Так, ми здійснюємо доставку по всьому місту. Вартість та умови
+            доставки залежать від вашого району, деталі можна уточнити при
+            оформленні замовлення.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              3. Як швидко здійснюється доставка?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Зазвичай доставка займає від 60 до 90 хвилин з моменту підтвердження
+            замовлення. У пікові години час доставки може бути збільшений, про
+            що ми вас обов'язково повідомимо.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              4. Чи можна забрати замовлення самостійно?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Так, ви можете забрати своє замовлення самостійно за адресою
+            [Вказати адресу самовивозу] у робочі години магазину.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              5. Чи пропонуєте ви десерти для людей з особливими дієтичними
+              потребами (безглютенові, безлактозні, веганські)?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Ми постійно розширюємо наш асортимент. Наразі у нас є обмежений
+            вибір безглютенових та безлактозних десертів. Будь ласка,
+            перегляньте наш каталог або зв'яжіться з нами для отримання
+            детальної інформації.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              6. Як я можу зробити замовлення на індивідуальний торт?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Для замовлення індивідуального торта, будь ласка, зв'яжіться з нашим
+            менеджером за телефоном [Вказати номер телефону] або залиште заявку
+            на сайті. Ми обговоримо всі деталі дизайну, начинки та терміни
+            виконання.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              7. Чи можна змінити або скасувати замовлення після його
+              оформлення?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Якщо вам потрібно змінити або скасувати замовлення, будь ласка,
+            негайно зв'яжіться з нами за телефоном. Можливість внесення змін
+            залежить від етапу, на якому знаходиться ваше замовлення.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              8. Який термін зберігання ваших десертів?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Термін зберігання десертів залежить від їхнього типу та
+            інгредієнтів. Зазвичай десерти рекомендується вживати протягом 24-72
+            годин. Точна інформація про термін зберігання вказана на упаковці
+            кожного виробу.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              9. Чи є у вас програма лояльності або знижки для постійних
+              клієнтів?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Так, ми цінуємо наших постійних клієнтів! Деталі нашої програми
+            лояльності та діючих акцій ви можете знайти на окремій сторінці
+            нашого сайту або уточнити у менеджера.
+          </p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-header">
+          <button class="faq-trigger" type="button">
+            <span class="faq-question">
+              10. Що робити, якщо у мене є скарга або пропозиція?
+            </span>
+            <svg
+              class="faq-icon"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#arrow-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="faq-panel">
+          <p class="faq-answer">
+            Ми завжди раді зворотному зв'язку! Якщо у вас виникли питання,
+            скарги або пропозиції, будь ласка, напишіть нам на електронну пошту
+            [Вказати email] або зателефонуйте. Ваша думка допомагає нам ставати
+            кращими.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <a class="footer-logo" href="./index.html" aria-label="На головну">
+        <svg class="footer-logo-icon" viewBox="0 12 112 24" aria-hidden="true">
+          <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#logo" width="112" height="48"></use>
+        </svg>
+      </a>
+
+      <nav class="footer-nav" aria-label="Навігація у футері">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#dessert-list">Солодощі</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#about-us">Про нас</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#feedback">Відгуки</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#faq">Часті питання</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      © 2025 Солодка Майстерня. Усі права захищені.
+    </p>
+  </div>
+</footer>
+
+
+    <div class="dessert-details backdrop">
+  <div class="dessert-details-modal">
+    <button class="dessert-details-close modal-close-btn" type="button">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#close"></use>
+      </svg>
+    </button>
+    <img class="dessert-details-img" alt="" />
+    <div class="dessert-details-info">
+      <h2 class="dessert-details-title"></h2>
+      <p class="dessert-details-price">
+        <span class="dessert-details-price-number"></span> грн.
+      </p>
+      <div class="dessert-details-rating"></div>
+      <p class="dessert-details-description"></p>
+      <p class="dessert-details-composition">
+        Склад:
+        <span class="dessert-details-composition-value"></span>
+      </p>
+      <button class="dessert-details-btn btn">Перейти до замовлення</button>
+    </div>
+  </div>
+</div>
+
+    <div class="order backdrop">
+  <div class="order-modal modal">
+    <button class="order-modal-close modal-close-btn" type="button">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/TestSweetDream/assets/icons-ic41G-Be.svg#close"></use>
+      </svg>
+    </button>
+
+    <h2 class="order-title">Оформлення замовлення</h2>
+
+    <form class="order-form form" novalidate>
+      <div class="order-field">
+        <label class="order-label" for="name">Ім'я*</label>
+        <input
+          class="order-input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Вікторія"
+          autofocus
+          required
+        />
+        <p class="form-error">Error Text</p>
+      </div>
+
+      <div class="order-field">
+        <label class="order-label" for="phone">Телефон*</label>
+        <input
+          class="order-input"
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="38 0__ _______"
+          required
+          pattern="^\d{2} \d{3} \d{7}$"
+        />
+        <p class="form-error">Error Text</p>
+      </div>
+
+      <div class="order-field">
+        <label class="order-label" for="comment">Коментар*</label>
+        <textarea
+          class="order-textarea"
+          id="comment"
+          name="comment"
+          placeholder="Ваш коментар"
+          required
+        ></textarea>
+        <p class="form-error">Error Text</p>
+      </div>
+
+      <button class="order-submit-btn btn" type="submit">
+        Надіслати заявку
+      </button>
+    </form>
+  </div>
+</div>
+
+
+  </body>
+</html>
